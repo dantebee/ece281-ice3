@@ -24,3 +24,12 @@ Then it **elaborates** the *any* entity with the name `*_tb`.
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity failure` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+
+![ICE3 Full Adder](fulladderwaveform.png)
+
+## Documentation
+
+I compared by test bench with C3C Richardson and make changes to how I declared my switches
+based on that. Other than that all the work was my own. 
+

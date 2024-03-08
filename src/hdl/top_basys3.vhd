@@ -112,8 +112,8 @@ begin
     
         halfAdder2_inst: halfAdder
         port map(
-            i_A     => sw(2),
-            i_B     => sw(3),
+            i_A     => w_S1,
+            i_B     => sw(2),
             o_S     => w_S2,
             o_Cout  => w_Cout2
         );

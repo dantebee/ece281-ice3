@@ -114,8 +114,8 @@ begin
         port map(
             i_A     => w_S1,
             i_B     => sw(2),
-            o_S     => w_S2,
-            o_Cout  => w_Cout2
+            o_S     => w_Cout2,
+            o_Cout  => led(0)
         );
 
 	---------------------------------

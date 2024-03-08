@@ -81,19 +81,19 @@ architecture top_basys3_arch of top_basys3 is
 
   -- declare any signals you will need	
   
-    signal w_sw1 : std_logic := '0';
-    signal w_sw0 : std_logic := '0';
-    signal w_sw2 : std_logic := '0';
-    signal w_sw3 : std_logic := '0';
+--    signal w_sw1 : std_logic := '0';
+--    signal w_sw0 : std_logic := '0';
+--    signal w_sw2 : std_logic := '0';
+--    signal w_sw3 : std_logic := '0';
 
     
-    signal w_led1 : std_logic := '0';
-    signal w_led0 : std_logic := '0';
-    signal w_led2 : std_logic := '0';
-    signal w_led3 : std_logic := '0';
+--    signal w_led1 : std_logic := '0';
+--    signal w_led0 : std_logic := '0';
+--    signal w_led2 : std_logic := '0';
+--    signal w_led3 : std_logic := '0';
     
     signal w_S1 : std_logic := '0';
-    signal w_S2 : std_logic := '0';
+--    signal w_S2 : std_logic := '0';
     signal w_Cout1 : std_logic := '0';
     signal w_Cout2 : std_logic := '0';
     
@@ -114,8 +114,8 @@ begin
         port map(
             i_A     => w_S1,
             i_B     => sw(2),
-            o_S     => w_Cout2,
-            o_Cout  => led(0)
+            o_S     => led(0),
+            o_Cout  => w_Cout2
         );
 
 	---------------------------------

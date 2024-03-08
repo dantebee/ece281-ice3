@@ -60,7 +60,7 @@ library ieee;
 entity top_basys3 is
 	port(
 		-- Switches
-		sw		:	in  std_logic_vector(2 downto 0);
+		sw		:	in  std_logic_vector(3 downto 0);
 		
 		-- LEDs
 		led	    :	out	std_logic_vector(1 downto 0)

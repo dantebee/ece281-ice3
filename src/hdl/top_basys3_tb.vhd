@@ -65,7 +65,7 @@ architecture test_bench of top_basys3_tb is
   end component;
   
 	-- declare signals needed to stimulate the UUT inputs
-	    signal w_sw : std_logic_vector (2 downto 0);
+	    signal w_sw : std_logic_vector (3 downto 0);
         signal w_led : std_logic_vector(1 downto 0);
 	-- finish declaring needed signals
 	

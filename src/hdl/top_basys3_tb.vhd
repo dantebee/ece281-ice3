@@ -100,7 +100,7 @@ begin
         w_sw <= o"6"; wait for 10 ns;
             assert w_led = "10" report "bad 110" severity failure;
         w_sw <= o"7"; wait for 10 ns;
-            assert w_led = "01" report "bad 111" severity failure;
+            assert w_led = "11" report "bad 111" severity failure;
                                                 
 
 	    --You must fill in the remaining test cases.	
